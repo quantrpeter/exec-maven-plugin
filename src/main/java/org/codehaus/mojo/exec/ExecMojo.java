@@ -454,6 +454,24 @@ public class ExecMojo
                 }
                 else
                 {
+                    
+                    new Thread(){
+                        public void run(){
+                            while(true){
+                                try
+                                {
+                                    System.out.flush();
+                                    Thread.sleep( 25);
+                                }
+                                catch ( InterruptedException ex )
+                                {
+                                }
+                            }
+                        }
+                    }.start();
+
+
+                    
                     resultCode = executeCommandLine( exec, commandLine, enviro, System.out, System.err );
                 }
 
