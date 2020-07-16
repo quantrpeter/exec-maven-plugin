@@ -454,7 +454,6 @@ public class ExecMojo
                 }
                 else
                 {
-                    
                     new Thread(){
                         public void run(){
                             while(true){
