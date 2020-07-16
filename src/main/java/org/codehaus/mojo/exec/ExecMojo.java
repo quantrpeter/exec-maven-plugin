@@ -461,7 +461,7 @@ public class ExecMojo
                                 try
                                 {
                                     System.out.flush();
-                                    Thread.sleep( 25);
+                                    Thread.sleep(10);
                                 }
                                 catch ( InterruptedException ex )
                                 {

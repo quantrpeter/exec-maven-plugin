@@ -8,8 +8,7 @@
   </parent>
 
   <artifactId>exec-maven-plugin</artifactId>
-  <!--<version>3.0.1-SNAPSHOT</version>-->
-    <version>1.5.0</version>
+  <version>3.0.1-QUANTR</version>
 
   <packaging>maven-plugin</packaging>
 
